@@ -215,7 +215,7 @@ function create_config( )
     "arabic_lock",
     "set",
     "get",
-    "broadcast",
+    "share",
     "download_media",
     "invite",
     "all",
@@ -322,7 +322,7 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!kick [username|id]
+!siktir [username|id]
 You can also do it by reply
 
 !ban [ username|id]
@@ -334,7 +334,7 @@ You can also do it by reply
 !who
 Members list
 
-!modlist
+!modir
 Moderators list
 
 !promote [username]
@@ -355,7 +355,7 @@ Set and locks group photo
 !setname [name]
 Set group name
 
-!rules
+!ghavanin
 Group rules
 
 !id
@@ -363,10 +363,10 @@ return group id or user id
 
 !help
 
-!lock [member|name|bots|leave]	
+!ghofl [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
+!bazkon [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
 
 !set rules <text>
@@ -375,10 +375,10 @@ Set <text> as rules
 !set about <text>
 Set <text> as about
 
-!settings
+!setting
 Returns group settings
 
-!newlink
+!linkjadid
 create/revoke your group link
 
 !link
@@ -393,7 +393,7 @@ Will set id as owner
 !setflood [value]
 Set [value] as flood sensitivity
 
-!stats
+!amar
 Simple message statistics
 
 !save [value] <text>
